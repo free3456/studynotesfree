@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Study Notes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* Background image with blur */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("ai-generated-9295105_640.jpg");
+      background-size: cover;
+      background-position: center;
+      filter: blur(6px);
+      z-index: -2;
+    }
+
+    /* Dark overlay */
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #000;
+    }
+
+    nav {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 12px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00ffcc;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .card {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .highlight {
+      color: #00ccff;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="subject.html">Subjects</a></li>
+    <li><a href="notes.html">Notes</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <h1>Welcome to <span class="highlight">Online Study Notes</span></h1>
+  <p>
+    Your one-stop platform for organized, easily accessible, and **free study material**.
+    Perfect for Computer Science students looking to boost their knowledge and ace their exams!
+  </p>
+
+  <div class="card">
+    <h2>Project Objective</h2>
+    <p>
+      Our goal is simple: provide a responsive web platform where students can access
+      subject-wise notes in PDF format, anytime, anywhere. No ads, no clutter, just pure learning!
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>📄 Organized notes for each subject</li>
+      <li>⚡ Fast and easy access on mobile & desktop</li>
+      <li>📝 Tips & tricks to remember concepts faster</li>
+      <li>🌟 Regular updates with latest material</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Fun Fact</h2>
+    <p>
+      Did you know? Students who revise using well-structured notes retain information <span class="highlight">up to 60% faster</span> than those who rely only on textbooks. So keep your notes handy! 🚀
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Get Started</h2>
+    <p>
+      Browse subjects, download notes, and start learning today. <br>
+      Tip: Make a daily study schedule to see real results. 💡
+    </p>
+  </div>
+</div>
+
+<footer>
+  © 2026 Online Study Notes | Made with ❤️ for learners
+</footer>
+
+</body>
+</html>
+
